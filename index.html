@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+    <title>Baking Memories With Amiee</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <head>
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+        <link rel="stylesheet" href="styles/core.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    </head>
+    <body>
+        <!-- Navbar (sit on top) -->
+        <div class="w3-top">
+            <div class="w3-bar" id="myNavbar">
+                <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <a href="#home" class="w3-bar-item w3-button">HOME</a>
+                <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+                <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
+                <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+            </div>
+            <!-- Navbar on small screens -->
+            <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+                <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+                <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+                <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+            </div>
+        </div>
+
+        <!-- Landing Header -->
+        <div class="first-bg-image w3-display-container w3-opacity-min" id="home">
+            <div data-aos="fade-up-right" data-aos-duration="2000" class="w3-display-right" style="white-space:nowrap;">
+                <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide">BAKING MEMORIES</span>
+            </div>
+            <div data-aos="fade-up-left" data-aos-duration="2000" class="w3-display-right" style="white-space:nowrap; padding-top: 100px">
+                <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide">WITH AMIEE</span>
+            </div>
+        </div>
+
+        <!-- About Amiee -->
+        <div class="w3-content w3-container w3-padding-64" id="about">
+            <h3 class="w3-center w3-xlarge" data-aos="fade-down" data-aos-duration="1000">ABOUT ME</h3>
+            <p data-aos="fade-right" data-aos-duration="1000" class="w3-center">I love baking cakes</p>
+            <!-- Bio -->
+            <p data-aos="fade-left" data-aos-duration="1000" class="w3-center">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean aliquet id magna a venenatis. Suspendisse eros urna, tristique in efficitur id, imperdiet eget libero. Maecenas
+                porttitor erat viverra, blandit enim eget, pharetra velit. Nunc non lobortis nunc. In ultrices feugiat maximus. Aliquam accumsan urna ipsum, lobortis sollicitudin ligula accumsan ut.
+                Nullam vel blandit sapien, eget dictum turpis. Nulla efficitur justo faucibus lacus semper, ultrices placerat turpis condimentum. Vestibulum vestibulum neque hendrerit pretium
+                convallis. Nulla quis enim vitae ligula eleifend suscipit id eu dui. Quisque vitae ipsum mauris. Maecenas vel efficitur odio, rutrum sodales tortor. Duis nulla libero, posuere vitae
+                metus quis, fermentum suscipit tortor. Sed a neque non tortor dapibus aliquam. Cras rutrum scelerisque nulla vel tempus. In vitae euismod ex. Etiam suscipit nulla sem, in laoreet
+                libero hendrerit eget. Suspendisse id interdum nisl. Donec accumsan purus eget tortor interdum gravida. Duis cursus faucibus rutrum. Praesent ac est id quam ultricies viverra ut eu
+                eros. Proin rhoncus, est eget posuere lacinia, nisi lacus maximus erat, et ultrices nibh eros vel lacus. Nunc vel condimentum ligula, accumsan mattis nisl. Nam consectetur urna leo, a
+                tempor mi vehicula non.
+            </p>
+
+            <!-- Pic of Amiee -->
+            <div class="w3-row">
+                <div data-aos="fade-up" data-aos-duration="1000" class="w3-col m6 w3-center w3-padding-large">
+                    <p>
+                        <b><i class="fa fa-user w3-margin-right"></i>Amiee</b>
+                    </p>
+                    <br />
+                    <img src="./assets/images/amiee-bio.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333" />
+                </div>
+                <div data-aos="fade-down" data-aos-duration="1000" class="w3-col m6 w3-hide-small w3-padding-large">
+                    Ut in tincidunt neque, nec iaculis orci. Integer augue mauris, imperdiet sed tincidunt eu, tincidunt a lorem. Donec varius lectus eu iaculis porta. Phasellus tempus quam tempor
+                    magna luctus, quis viverra arcu malesuada. Ut ut libero malesuada, dapibus metus at, euismod nisl. Integer id mauris dapibus, finibus lacus eget, aliquam tellus. Suspendisse non
+                    metus consectetur, consectetur purus vel, tincidunt nulla. Sed malesuada consectetur egestas. Mauris ullamcorper feugiat purus, nec malesuada purus vulputate quis. Sed neque ante,
+                    lobortis congue suscipit sit amet, tempor in diam. Nulla ac enim sit amet metus condimentum molestie nec vitae metus. Maecenas auctor lobortis nulla a euismod. Vestibulum fringilla
+                    gravida orci, eu condimentum justo luctus in. Ut fermentum posuere ex sit amet gravida.
+                </div>
+            </div>
+        </div>
+
+        <!-- Data -->
+        <div class="w3-row w3-center w3-dark-grey w3-padding-16">
+            <div data-aos="zoom-in" class="w3-quarter w3-section">
+                <span class="w3-xlarge">14+</span><br />
+                Weddings
+            </div>
+            <div data-aos="zoom-in" class="w3-quarter w3-section">
+                <span class="w3-xlarge">55+</span><br />
+                Birthdays
+            </div>
+            <div data-aos="zoom-in" class="w3-quarter w3-section">
+                <span class="w3-xlarge">89+</span><br />
+                Cakes
+            </div>
+            <div data-aos="zoom-in" class="w3-quarter w3-section">
+                <span class="w3-xlarge">150+</span><br />
+                Satisfied Customers
+            </div>
+        </div>
+
+        <!-- Portfolio -->
+        <div class="second-bg-image w3-display-container w3-opacity-min">
+            <div class="w3-display-middle">
+                <span data-aos="zoom-in" class="w3-xxxlarge w3-text-white w3-wide">MY PORTFOLIO</span>
+            </div>
+        </div>
+        <div class="w3-content w3-container w3-padding-64" id="portfolio">
+            <h3 data-aos="fade-down" data-aos-duration="1000" class="w3-center w3-xxlarge">MY CAKES</h3>
+            <p data-aos="fade-up" data-aos-duration="1000" class="w3-center">
+                <em
+                    >These are just some of my many cakes.<br />
+                    (Click to enlarge)</em
+                >
+            </p>
+            <br />
+
+            <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+            <div data-aos="fade-left" data-aos-duration="1000" class="w3-row-padding w3-center">
+                <div class="w3-col m3">
+                    <img src="./assets/images/portfolio/p1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains" />
+                </div>
+                <div class="w3-col m3">
+                    <img src="./assets/images/portfolio/p2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Coffee beans" />
+                </div>
+                <div class="w3-col m3">
+                    <img src="./assets/images/portfolio/p3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Bear closeup" />
+                </div>
+                <div class="w3-col m3">
+                    <img src="./assets/images/portfolio/p4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Quiet ocean" />
+                </div>
+            </div>
+
+            <div data-aos="zoom-in" data-aos-duration="1000" class="w3-row-padding w3-center w3-section">
+                <div class="w3-col m3">
+                    <img src="./assets/images/portfolio/p13.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains" />
+                </div>
+                <div class="w3-col m3">
+                    <img src="./assets/images/portfolio/p10.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Coffee beans" />
+                </div>
+                <div class="w3-col m3">
+                    <img src="./assets/images/portfolio/p11.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Bear closeup" />
+                </div>
+                <div class="w3-col m3">
+                    <img src="./assets/images/portfolio/p12.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Quiet ocean" />
+                </div>
+            </div>
+
+            <div data-aos="fade-right" data-aos-duration="1000" class="w3-row-padding w3-center w3-section">
+                <div class="w3-col m3">
+                    <img src="./assets/images/portfolio/p5.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="L Shaped Flower cake" />
+                </div>
+                <div class="w3-col m3">
+                    <img src="./assets/images/portfolio/p6.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Hombre Fade" />
+                </div>
+                <div class="w3-col m3">
+                    <img src="./assets/images/portfolio/p7.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Cheeto Cake" />
+                </div>
+                <div class="w3-col m3">
+                    <img src="./assets/images/portfolio/p9.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Unicorn Cake" />
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal for full size images on click-->
+        <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+            <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+            <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+                <img id="img01" class="w3-image" />
+                <p id="caption" class="w3-opacity w3-large"></p>
+            </div>
+        </div>
+
+        <!-- Contact Amiee  -->
+        <div class="third-bg-image w3-display-container w3-opacity-min">
+            <div class="w3-display-middle">
+                <span data-aos="zoom-in" class="w3-xxxlarge w3-wide w3-text-black">CONTACT</span>
+            </div>
+        </div>
+
+        <div class="w3-content w3-container w3-padding-64" id="contact">
+            <div class="w3-content w3-container w3-padding-64" id="contact">
+                <h3 class="w3-center">INTERESTED?</h3>
+                <p class="w3-center"><em>I'd love work with you for your special day or event! If you're interested please leave me a message here or give us a call.</em></p>
+
+                <div class="w3-row w3-padding-32 w3-section">
+                    <div class="w3-col m4 w3-container">
+                        <img src="./assets/images/amiee-bio.jpg" class="w3-image w3-round" style="width:100%" />
+                    </div>
+                    <div class="w3-col m8 w3-panel">
+                        <div class="w3-large w3-margin-bottom">
+                            <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Dayton, OH <br />
+                            <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: <br />
+                            <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: mail@mail.com<br />
+                        </div>
+                        <p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>
+                        <form action="/action_page.php" target="_blank">
+                            <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+                                <div class="w3-half">
+                                    <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name" />
+                                </div>
+                                <div class="w3-half">
+                                    <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email" />
+                                </div>
+                            </div>
+                            <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message" />
+                            <button class="w3-button w3-black w3-right w3-section" type="submit"><i class="fa fa-paper-plane"></i> SEND MESSAGE</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="w3-center w3-black w3-padding-64 w3-opacity">
+            <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+            <div class="w3-xlarge w3-section">
+                <i class="fa fa-facebook-official w3-hover-opacity"></i>
+                <i class="fa fa-instagram w3-hover-opacity"></i>
+                <i class="fa fa-snapchat w3-hover-opacity"></i>
+                <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+                <i class="fa fa-twitter w3-hover-opacity"></i>
+                <i class="fa fa-linkedin w3-hover-opacity"></i>
+            </div>
+            <p>Developed and designed by Tristan Kalmbach (tristan.kalmbach@gmail.com)</p>
+            <p>
+                &copy; 2013<script>
+                    new Date().getFullYear() > 2010 && document.write('-' + new Date().getFullYear());</script>, Baking Memories With Amiee.
+            </p>
+        </footer>
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+            // Modal Image Gallery
+            function onClick(element) {
+                document.getElementById('img01').src = element.src;
+                document.getElementById('modal01').style.display = 'block';
+                var captionText = document.getElementById('caption');
+                captionText.innerHTML = element.alt;
+            }
+
+            // Change style of navbar on scroll
+            window.onscroll = function() {
+                myFunction();
+            };
+            function myFunction() {
+                var navbar = document.getElementById('myNavbar');
+                if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                    navbar.className = 'w3-bar' + ' w3-card' + ' w3-animate-top' + ' w3-white';
+                } else {
+                    navbar.className = navbar.className.replace(' w3-card w3-animate-top w3-white', '');
+                }
+            }
+
+            // Used to toggle the menu on small screens when clicking on the menu button
+            function toggleFunction() {
+                var x = document.getElementById('navDemo');
+                if (x.className.indexOf('w3-show') == -1) {
+                    x.className += ' w3-show';
+                } else {
+                    x.className = x.className.replace(' w3-show', '');
+                }
+            }
+        </script>
+    </body>
+</html>
